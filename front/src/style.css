@@ -1,0 +1,11 @@
+.table-scroll {
+    max-height: 500px; /* Ajustez cette valeur selon vos besoins */
+    overflow-y: auto;
+}
+
+.mt-3 thead {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: #343a40; /* Couleur de fond de l'en-tête */
+}
